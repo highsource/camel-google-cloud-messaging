@@ -66,7 +66,7 @@ public class GcmEndpointTest extends CamelTestSupport {
 		final String apiKey = loadProperties(TEST_GCM_PROPERTIES).getProperty("gcm.apiKey");
 		return new RouteBuilder() {
 			public void configure() {
-				from("direct:foo").to("gcm:///topics/bar?apiKey=" + apiKey).to("mock:result");
+				from("direct:foo").to("gcm:/topics/bar?apiKey=" + apiKey).to("mock:result");
 			}
 		};
 	}
