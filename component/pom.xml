@@ -14,8 +14,8 @@
 			<artifactId>camel-core</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.google.cloud.messaging</groupId>
-			<artifactId>gcm-rest-client</artifactId>
+			<groupId>com.google.gcm</groupId>
+			<artifactId>gcm-server</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.camel</groupId>

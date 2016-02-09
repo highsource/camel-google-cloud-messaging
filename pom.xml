@@ -66,9 +66,9 @@
 				<version>${camel.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.google.cloud.messaging</groupId>
-				<artifactId>gcm-rest-client</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
+				<groupId>com.google.gcm</groupId>
+				<artifactId>gcm-server</artifactId>
+				<version>1.0.0</version>
 			</dependency>
 			<!--dependency>
 				<groupId>org.apache.commons</groupId>
